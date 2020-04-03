@@ -4,9 +4,9 @@
 * Les fichiers sont compilés en utilisant la commande make
 * Pour executer le programme il suffit d'utiliser la commande :
 - ./projet  queryfile databasefilename
-* On peut rajouter un troisième paramètre permettant de charger une autre matrice Blosum :
+* On peut rajouter un troisième paramètre permettant de charger une autre matrice Blosum (par défaut BLOSUM62) :
 - ./projet queryfile databasefilename BLOSUM
-* On peut également rajouter en paramètre les gap open et extension : `
+* On peut également rajouter en paramètre les gap open et extension (par défaut 10 et 1): 
 - ./projet queryfile database filename gapopen gapextension
 * Et on peut combiner les deux :
 - ./projet queryfile databasefilename gapopen gapextension BLOSUM
