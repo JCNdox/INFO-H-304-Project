@@ -147,7 +147,7 @@ int Blosum::preScore(char c) const
             position = 23;
             break;
         default:
-            position = 23; //ATTENTION
+            position = 23; //ATTENTION cela ne devrait pas arriver
             break;
     }
     return position;
