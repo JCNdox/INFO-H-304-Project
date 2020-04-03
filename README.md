@@ -5,7 +5,7 @@
 * Pour executer le programme il suffit d'utiliser la commande :
 - ./projet  queryfile databasefilename
 * On peut rajouter un troisième paramètre permettant de charger une autre matrice Blosum :
- "./projet queryfile databasefilename BLOSUM"
+- ./projet queryfile databasefilename BLOSUM
 * On peut également rajouter en paramètre les gap open et extension : `
 - ./projet queryfile database filename gapopen gapextension
 * Et on peut combiner les deux :
