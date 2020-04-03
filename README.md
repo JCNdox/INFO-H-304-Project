@@ -2,7 +2,7 @@
 
 ## 1. Usage
 * Les fichiers sont compilés en utilisant la commande make
-* Pour executer le programme il suffit d'utiliser la commande : `./projet `<queryfile> `<database filename>
+* Pour executer le programme il suffit d'utiliser la commande : `./projet ` <queryfile>` `<database filename>`
 * On peut rajouter un troisième paramètre permettant de charger une autre matrice Blosum :
   ./projet <queryfile> <database filename> <BLOSUM>
 * On peut également rajouter en paramètre les gap open et extension : `
