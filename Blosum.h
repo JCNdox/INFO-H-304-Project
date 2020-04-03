@@ -1,6 +1,3 @@
-/*
- La classe fonctionne. Il reste à définir la fonction score
-*/
 
 #ifndef BLOSUM_H_INCLUDED
 #define BLOSUM_H_INCLUDED
@@ -21,7 +18,7 @@ class Blosum
 
     int score(char a, char b) const;
     void init(std::string fileName);
-    int preScore(char c) const; //changer ce nom
+    int preScore(char c) const;
     std::vector<int> lecture(std::string ligne);
 
     private:
