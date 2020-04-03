@@ -28,7 +28,7 @@ string Phr::parcours(int nbrOctets)
     }
     return str;
 }
-string Phr::hexToString(string hexa) //renommer les variables
+string Phr::hexToString(string hexa)
 {
     int y;
     istringstream iss( hexa );
